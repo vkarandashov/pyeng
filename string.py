@@ -29,3 +29,25 @@ print(ip.split())
 
 cmd = ' switch trunk allowed vlan 1,2,2,3,34,4\n'
 print(cmd.replace("vlan", " asdasd").replace(" asdasd", "wow"))
+
+
+#method upper, lower, swapcase, capitalize
+string1 = 'FastEthernet'
+string1.upper()
+'FASTETHERNET'
+
+string1.lower()
+'fastethernet'
+
+string1.swapcase()
+'fASTeTHERNET'
+
+string2 = 'tunnel 0'
+
+string2.capitalize()
+'Tunnel 0'
+
+#method join
+vlans = ['10', '20', '30']
+','.join(vlans)
+'10,20,30'
